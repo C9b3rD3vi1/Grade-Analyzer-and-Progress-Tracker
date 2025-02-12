@@ -1,0 +1,105 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+
+1. What is the title of your program?
+
+    Student Grade Analyzer and Progress Tracker
+
+2. What real-world problem will your program address or help to solve?
+
+    Students and educators often struggle to track and analyze academic performance over time. Manually calculating grades, identifying trends, and predicting future performance can be time-consuming and error-prone. This program will automate the process of analyzing student grades, calculating averages, identifying trends, and providing actionable insights to help students improve their academic performance.
+
+
+3. What will you learn from developing this program?
+
+    Data Analysis: Learn how to process and analyze structured data (e.g., grades stored in CSV files).
+
+    File Handling: Gain experience working with file I/O operations, such as reading from and writing to CSV files.
+
+    Data Visualization: Learn how to use Python libraries like matplotlib to create visual representations of data (e.g., grade trends over time).
+
+    Modular Programming: Practice writing reusable functions and organizing code into modules.
+
+    Testing: Develop skills in writing test cases using pytest to ensure the program works as expected.
+
+    User Interaction: Learn how to create a simple command-line interface for user interaction.
+
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+    csv: To read and write student grade data from/to CSV files.
+
+    matplotlib: To visualize grade trends and performance metrics.
+
+    pandas: To handle and manipulate tabular data efficiently.
+
+    pytest: To write and run test cases for the program's functions.
+
+    datetime: To track and analyze grades over specific time periods (e.g., semesters).
+
+    statistics: To calculate averages, medians, and other statistical metrics.
+
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+    
+
+    Reusable Functions (with parameters and return values):
+    read_grades(file_path: str) -> dict: Reads grades from a CSV file and returns a dictionary of student data.
+
+    calculate_average(grades: list) -> float: Calculates the average of a list of grades.
+
+    calculate_median(grades: list) -> float: Calculates the median of a list of grades.
+
+    identify_trends(grades: list) -> str: Identifies trends (e.g., improving, declining, stable) based on grade history.
+
+    predict_future_performance(grades: list) -> float: Predicts future performance based on historical data.
+
+    generate_report(student_data: dict) -> dict: Generates a summary report for a student (e.g., average, median, trend).
+
+    Non-Reusable Functions (with user input/output):
+    main(): The main function that orchestrates the program flow, including user interaction.
+
+    display_report(report: dict): Displays the generated report to the user.
+
+    plot_grades(student_data: dict): Uses matplotlib to visualize grade trends.
+
+
+
+6. List the names of the test functions you will write.
+
+    Here’s a list of test functions to ensure the program works as expected:
+
+    test_read_grades(): Tests the read_grades function to ensure it reads data correctly from a CSV file.
+
+    test_calculate_average(): Tests the calculate_average function with various input lists.
+
+    test_calculate_median(): Tests the calculate_median function with different grade lists.
+
+    test_identify_trends(): Tests the identify_trends function with sample grade trends.
+
+    test_predict_future_performance(): Tests the predict_future_performance function with historical data.
+
+    test_generate_report(): Tests the generate_report function to ensure it produces the correct summary.

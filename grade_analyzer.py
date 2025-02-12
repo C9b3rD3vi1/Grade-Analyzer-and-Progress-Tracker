@@ -3,6 +3,7 @@ import statistics
 import matplotlib.pyplot as plt
 import pandas as pd
 from datetime import datetime
+from colorama import Fore, Style, init
 
 
 
@@ -81,7 +82,7 @@ def display_report(report: dict):
     print(f"Average Grade: {report['average']:.2f}")
     print(f"Median Grade: {report['median']:.2f}")
     print(f"Trend: {report['trend']}")
-    print(f"Predicted Next Grade: {report['prediction']:.2f}")
+    print(f" Predicted Next Grade: {report['prediction']:.2f}")
 
 
 # function to plot grades of students using matplotlib # Non-Reusable Functions
@@ -97,7 +98,8 @@ def plot_grades(student_data: dict):
     plt.grid(True)
     plt.show()
 
-# 
+
+# Main function to run the program
 def main():
     """Main function to run the program."""
     file_path = input("Enter the path to the grades CSV file: ")

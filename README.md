@@ -95,10 +95,10 @@ display_report(report: dict): Displays the generated report.
 
 plot_grades(student_data: dict): Visualizes grade trends.
 
-Main Function
+**Main Function**
 main(): Runs the program.
 
-Dependencies
+**Dependencies**
 csv: For reading data from CSV files.
 
 statistics: For calculating average and median grades.
@@ -109,7 +109,8 @@ datetime: For parsing and handling dates.
 
 colorama: For adding colored text to the console output.
 
-Future Enhancements
+**Future Enhancements**
+
 Error Handling: Add error handling for invalid or missing data.
 
 Advanced Prediction: Implement more sophisticated prediction models (e.g., machine learning).
@@ -119,16 +120,3 @@ Enhanced Visualization: Add support for additional chart types (e.g., bar charts
 User Interface: Develop a graphical user interface (GUI) for easier interaction.
 
 Integration: Integrate with learning management systems (LMS) to automatically fetch data.
-
-Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature/YourFeatureName).
-
-Commit your changes (git commit -m 'Add some feature').
-
-Push to the branch (git push origin feature/YourFeatureName).
-
-Open a pull request.

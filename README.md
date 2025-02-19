@@ -72,6 +72,11 @@ Enter the path to the CSV file when prompted:
     Trend: Improving
     Predicted Next Grade: 91.00
 
+## Testing Result
+
+**Run command**
+    Python3 test_grade_anyzer.py
+
 
 **Graphical Output:**
 

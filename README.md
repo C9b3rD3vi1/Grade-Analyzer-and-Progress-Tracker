@@ -82,6 +82,8 @@ Enter the path to the CSV file when prompted:
 
 A line graph showing the student's grade trend over time.
 
+![Graphical Output](/grades.png)
+
 ## Code Structure
 
 **Reusable Functions**

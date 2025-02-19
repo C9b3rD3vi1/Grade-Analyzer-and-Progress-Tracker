@@ -35,6 +35,7 @@ Install the required Python libraries using pip:
 
     pip install matplotlib colorama pandas
 
+
 ## Usage
 
 Input CSV File Format
@@ -48,6 +49,7 @@ The tool reads student grades from a CSV file with the following format:
     2,Jane Smith,82,2023-02-01
     2,Jane Smith,80,2023-03-01
 
+
 ## Run the Program
 
 Save your student grades in a CSV file (e.g., grades.csv).
@@ -57,6 +59,7 @@ Save your student grades in a CSV file (e.g., grades.csv).
 
 Enter the path to the CSV file when prompted:
     Enter the path to the grades CSV file: grades.csv
+
 
 ## Output
 
@@ -68,6 +71,7 @@ Enter the path to the CSV file when prompted:
     Median Grade: 88.00
     Trend: Improving
     Predicted Next Grade: 91.00
+
 
 **Graphical Output:**
 
@@ -89,14 +93,17 @@ predict_future_performance(grades: list) -> float: Predicts future grades.
 
 generate_report(student_data: dict) -> dict: Generates a summary report.
 
+
 **Non-Reusable Functions**
 
 display_report(report: dict): Displays the generated report.
 
 plot_grades(student_data: dict): Visualizes grade trends.
 
+
 **Main Function**
 main(): Runs the program.
+
 
 **Dependencies**
 csv: For reading data from CSV files.
@@ -108,6 +115,7 @@ matplotlib.pyplot: For visualizing grade trends.
 datetime: For parsing and handling dates.
 
 colorama: For adding colored text to the console output.
+
 
 **Future Enhancements**
 
